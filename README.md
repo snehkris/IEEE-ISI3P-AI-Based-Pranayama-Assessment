@@ -43,26 +43,6 @@ The goal is to develop an intelligent system capable of evaluating breathing qua
 
 ---
 
-## 📊 Current Quantitative Results
-
-| Parameter | Value |
-|-----------|--------:|
-| Audio Duration | 28.98 s |
-| Breathing Cycles | 6 |
-| Average Cycle Duration | 5.54 s |
-| Breathing Frequency | 10.84 breaths/min |
-| Rhythm Consistency (STD) | 0.795 s |
-| Average RMS Energy | 0.0347 |
-| Maximum RMS Energy | 0.0540 |
-| Minimum RMS Energy | 0.0000 |
-
-### Overall Performance
-
-- *Overall Score:* *80.8 / 100*
-- *Overall Result:* *Good*
-
----
-
 ## 🛠️ Technologies Used
 
 - Python
