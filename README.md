@@ -31,9 +31,10 @@ The goal is to develop an intelligent system capable of evaluating breathing qua
 - Rhythm consistency analysis
 - Quantitative report generation
 
-### 🚧 Qualitative Analysis (In Progress)
+### 🚧 Qualitative Analysis
+This notebook performs qualitative posture analysis for Anulom Vilom using YOLOv8 Pose.
 
-- MediaPipe Pose Estimation
+-  Pose Estimation
 - Spine alignment analysis
 - Neck posture evaluation
 - Shoulder alignment
@@ -56,6 +57,23 @@ The goal is to develop an intelligent system capable of evaluating breathing qua
 | Maximum RMS Energy | 0.0540 |
 | Minimum RMS Energy | 0.0000 |
 
+
+
+## Qualitative Analysis Report
+
+| Parameter | Score |
+|-----------|------:|
+| Neck Score | 85.0 / 100 |
+| Spine Score | 40.0 / 100 |
+| Shoulder Score | 85.0 / 100 |
+| Hand Position | 94.1 / 100 |
+| Sitting Posture | 100.0 / 100 |
+
+### Overall Performance
+
+- *Overall Score:* *80.8 / 100*
+- *Overall Result:* *Good*
+
 ---
 
 ## 🛠️ Technologies Used
@@ -66,7 +84,7 @@ The goal is to develop an intelligent system capable of evaluating breathing qua
 - SciPy
 - Matplotlib
 - OpenCV
-- MediaPipe *(Work in Progress)*
+- YOLOv8 Pose 
 
 ---
 
