@@ -91,19 +91,24 @@ This notebook performs qualitative posture analysis for Anulom Vilom using YOLOv
 ## 📂 Repository Structure
 
 ```text
-.
+
 ├── notebooks/
 │   ├── Quantitative_Analysis.ipynb
-│   └── Qualitative_Analysis.ipynb (Coming Soon)
-│
+│   └── Qualitative_Analysis.ipynb
+
 ├── results/
 │   ├── Quantitative_Report.csv
+│   ├── qualitative_report.csv
 │   ├── waveform.png
 │   ├── mel_spectrogram.png
 │   ├── rms_energy.png
 │   ├── peak_detection.png
-│   └── quantitative_results.png
-│
+│   ├── quantitative_results.png
+│   ├── qualitative_results.png
+│   ├── neck_angle.png
+│   ├── spine_alignment.png
+│   └── shoulder_alignment.png
+
 ├── README.md
 └── LICENSE
 ```
