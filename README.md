@@ -31,8 +31,7 @@ The goal is to develop an intelligent system capable of evaluating breathing qua
 - Rhythm consistency analysis
 - Quantitative report generation
 
-### 🚧 Qualitative Analysis
-This notebook performs qualitative posture analysis for Anulom Vilom using YOLOv8 Pose.
+### 🚧 Qualitative Analysis (Coming soon)
 
 - MediaPipe Pose Estimation
 - Spine alignment analysis
