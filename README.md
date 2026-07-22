@@ -34,7 +34,7 @@ The goal is to develop an intelligent system capable of evaluating breathing qua
 ### 🚧 Qualitative Analysis
 This notebook performs qualitative posture analysis for Anulom Vilom using YOLOv8 Pose.
 
--  Pose Estimation
+- MediaPipe Pose Estimation
 - Spine alignment analysis
 - Neck posture evaluation
 - Shoulder alignment
@@ -57,18 +57,6 @@ This notebook performs qualitative posture analysis for Anulom Vilom using YOLOv
 | Maximum RMS Energy | 0.0540 |
 | Minimum RMS Energy | 0.0000 |
 
-
-
-## Qualitative Analysis Report
-
-| Parameter | Score |
-|-----------|------:|
-| Neck Score | 85.0 / 100 |
-| Spine Score | 40.0 / 100 |
-| Shoulder Score | 85.0 / 100 |
-| Hand Position | 94.1 / 100 |
-| Sitting Posture | 100.0 / 100 |
-
 ### Overall Performance
 
 - *Overall Score:* *80.8 / 100*
@@ -84,7 +72,7 @@ This notebook performs qualitative posture analysis for Anulom Vilom using YOLOv
 - SciPy
 - Matplotlib
 - OpenCV
-- YOLOv8 Pose 
+- MediaPipe Pose 
 
 ---
 
@@ -94,20 +82,15 @@ This notebook performs qualitative posture analysis for Anulom Vilom using YOLOv
 
 ├── notebooks/
 │   ├── Quantitative_Analysis.ipynb
-│   └── Qualitative_Analysis.ipynb
+│   └── Qualitative_Analysis.ipynb (Coming Soon)
 
 ├── results/
 │   ├── Quantitative_Report.csv
-│   ├── qualitative_report.csv
 │   ├── waveform.png
 │   ├── mel_spectrogram.png
 │   ├── rms_energy.png
 │   ├── peak_detection.png
-│   ├── quantitative_results.png
-│   ├── qualitative_results.png
-│   ├── neck_angle.png
-│   ├── spine_alignment.png
-│   └── shoulder_alignment.png
+│   └── quantitative_results.png
 
 ├── README.md
 └── LICENSE
